@@ -1,6 +1,6 @@
 def fibonacci_rec(number):
     if number < 0:
-        return 'I don\'t like to work with Gamma Function'
+        return 'Not a valid value'
     elif number == 1 or number == 2:
         return 1
     else:
