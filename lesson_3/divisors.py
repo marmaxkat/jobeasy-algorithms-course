@@ -6,4 +6,4 @@ def get_divisors(num):
     return result
 
 
-print((get_divisors(24)))
+# print((get_divisors(24)))

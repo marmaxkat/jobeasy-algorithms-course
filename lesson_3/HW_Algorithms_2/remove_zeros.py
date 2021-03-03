@@ -10,6 +10,8 @@
 
 
 def remove_zeros(number):
+    if number == 0:
+        return number
     while number % 10 == 0:
         number //= 10
     return number
